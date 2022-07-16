@@ -1,0 +1,2 @@
+.mov-img{height:500px}.mov-layer{background-color:hsla(0,0%,100%,.7);position:absolute;top:100%;left:0;width:100%;height:100%;transition:all .5s;z-index:5;flex-direction:column}.mov:hover .mov-layer{top:0}.app-body{background-color:#42403f}
+/*# sourceMappingURL=main.f85ebb43.chunk.css.map */
