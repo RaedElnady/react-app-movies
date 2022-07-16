@@ -24,6 +24,7 @@ export default class App extends Component
       <Routes>
         
         <Route path="/" element={<Home/>}></Route>
+        <Route path="react-app-movies" element={<Home/>}></Route>
         <Route path="home" element={<Home/>}></Route>
         <Route path="search" element={<Search/>}></Route>
         <Route path="upcoming" element={<Upcoming/>}></Route>
