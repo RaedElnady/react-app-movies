@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Styles from './Movie.css';
+import './Movie.css';
+
 
 export default class Movie extends Component {
   render() {
@@ -18,6 +19,7 @@ export default class Movie extends Component {
             </div>
             
         </div>
+        {/* Test Comment */}
       </div>
       </>
     )

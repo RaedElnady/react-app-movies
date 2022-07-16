@@ -8,8 +8,9 @@ import Trending from "../Trending/Trending";
 import Notfound from "../NotFound/Notfound";
 import Popular from "../Popular/Popular";
 import NowPlaying from "../NowPlaying/NowPlaying";
-import style from './app.css'
+import './app.css'
 import Search from "../Search/Search";
+import Genres from "../Genres/Genres";
 
 export default class App extends Component
 {
@@ -23,7 +24,6 @@ export default class App extends Component
       <Routes>
         
         <Route path="/" element={<Home/>}></Route>
-        <Route path="react-app-movies" element={<Home/>}></Route>
         <Route path="home" element={<Home/>}></Route>
         <Route path="search" element={<Search/>}></Route>
         <Route path="upcoming" element={<Upcoming/>}></Route>
@@ -31,6 +31,7 @@ export default class App extends Component
         <Route path="nowplaying" element={<NowPlaying/>}></Route>
         <Route path="trending" element={<Trending/>}></Route>
         <Route path="popular" element={<Popular/>}></Route>
+        <Route path="genres" element={<Genres/>}></Route>
         <Route path="*" element={<Notfound/>}></Route>
         
       </Routes>
