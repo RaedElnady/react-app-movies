@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "//raed-blog.com/precache-manifest.d9456fe3c612eff184bf133a97f2c74b.js"
+  "//movies/raed-blog.com/precache-manifest.3e04517f7d81c8dc724abc29da40c455.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("//raed-blog.com/index.html", {
+workbox.routing.registerNavigationRoute("//movies/raed-blog.com/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
