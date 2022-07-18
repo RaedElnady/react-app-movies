@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "//movies/raed-blog.com/precache-manifest.3e04517f7d81c8dc724abc29da40c455.js"
+  "/react-app-movies/precache-manifest.a400dabd28345e784a42782914feb4f3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("//movies/raed-blog.com/index.html", {
+workbox.routing.registerNavigationRoute("/react-app-movies/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
